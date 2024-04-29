@@ -1,0 +1,28 @@
+{
+  "name": "react_native_cookbook",
+  "version": "1.0.0",
+  "description": "React Native Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naykel76/react_native_cookbook.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Native",
+    "Redux"
+  ],
+  "author": "Nathan Watts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naykel76/react_native_cookbook/issues"
+  },
+  "homepage": "https://github.com/naykel76/react_native_cookbook#readme",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
