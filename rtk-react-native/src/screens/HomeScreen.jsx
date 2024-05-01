@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Counter from '../Components/Counter';
+import CounterAsync from '../Components/CounterAsync';
 
 export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Simple Counter</Text>
             <Counter />
+            <Text style={styles.title}>Async Counter</Text>
+            <CounterAsync />
         </View>
     );
 }
@@ -19,7 +22,7 @@ const styles = StyleSheet.create({
         padding: 16,
     },
     title:{
-        marginBottom: 8,
+        marginVertical: 8,
         fontSize: 24,
     }
 });
