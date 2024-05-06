@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Pressable, Button } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { incrementAsync, decrementAsync, incrementByValueAsync } from '../features/counter/counterSlice';
+import { incrementAsync, decrementAsync, incrementByValueAsync } from '../features/counterSlice';
 import Box from './ui/Box';
 import Icon from './ui/Icon';
 
