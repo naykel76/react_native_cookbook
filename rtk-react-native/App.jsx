@@ -21,8 +21,8 @@ export default function App() {
         <Provider store={store}>
             <NavigationContainer>
                 <Tab.Navigator screenOptions={{ headerShown: false }}>
-                    <Tab.Screen name="Counter" component={CounterScreen} />
                     <Tab.Screen name="Home" component={CategoriesStackNav} options={{ tabBarLabel: 'Categories' }}/>
+                    <Tab.Screen name="Counter" component={CounterScreen} />
                 </Tab.Navigator>
             </NavigationContainer>
         </Provider>
